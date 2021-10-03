@@ -1,5 +1,7 @@
 ## Assignment4
-实现Hystrix滑动窗口熔断机制\n
+
+实现Hystrix滑动窗口熔断机制
+
 1.Sever
 - 模拟了Sever接受Client请求
 - 模拟了Handler中调用rpc接口（qps越高，越容易失败），从而触发熔断机制，并记录到Log中
